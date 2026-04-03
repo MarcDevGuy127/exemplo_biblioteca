@@ -4,6 +4,14 @@ public class JogoEducativo extends ItemAcervo {
 	private String nome, descricao;
 	private int pecas;
 	
+	// construtor com parametros
+	public JogoEducativo(String nome, String descricao, int pecas) {
+		super(nome, descricao, pecas);
+		this.nome = nome;
+		this.descricao = descricao;
+		this.pecas = pecas;
+	}
+	
 	// getters e setters
 	public String getNome() {
 		return nome;
