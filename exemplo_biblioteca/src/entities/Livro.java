@@ -1,6 +1,8 @@
 package entities;
 
-public class Livro {
+import entities.ItemAcervo;
+
+public class Livro extends ItemAcervo {
 	private String titulo, autor, editora;
 	private int numPaginas;
 	private String getTitulo() {
