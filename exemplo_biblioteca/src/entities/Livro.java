@@ -4,6 +4,14 @@ public class Livro extends ItemAcervo {
 	private String titulo, autor, editora;
 	private int numPaginas;
 	
+	// construtor com parametros
+	public Livro(String titulo, String autor, String editora, int numPaginas) {
+		this.titulo = titulo;
+		this.autor = autor;
+		this.editora = editora;
+		this.numPaginas = numPaginas;
+	}
+	
 	// getters e setters
 	public String getTitulo() {
 		return titulo;
