@@ -6,9 +6,8 @@ public class Livro extends ItemAcervo {
 	
 	// construtor com parametros
 	public Livro(String titulo, String autor, String editora, int numPaginas) {
-		this.titulo = titulo;
+		super(titulo, editora, numPaginas); // chamando superclasse
 		this.autor = autor;
-		this.editora = editora;
 		this.numPaginas = numPaginas;
 	}
 	
