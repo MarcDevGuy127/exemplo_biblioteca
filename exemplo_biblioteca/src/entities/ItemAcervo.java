@@ -3,7 +3,7 @@ package entities;
 public class ItemAcervo {
 	private String titulo, ano;
 	private int codigo;
-
+/*
 	private String getTitulo() {
 		return titulo;
 	}
@@ -32,6 +32,6 @@ public class ItemAcervo {
 		if (codigo > 0) {
 			this.codigo = codigo;
 		}
-	}
+	}*/
 
 }

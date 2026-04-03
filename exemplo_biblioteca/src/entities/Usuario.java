@@ -4,6 +4,7 @@ public class Usuario {
 	private String nome, cidade, bairro, endereco, complemento;
 	private int idade;
 
+/*	
 	private String getNome() {
 		return nome;
 	}
@@ -63,4 +64,5 @@ public class Usuario {
 			this.idade = idade;
 		}
 	}
+	*/
 }
