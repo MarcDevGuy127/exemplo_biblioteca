@@ -1,8 +1,32 @@
 package entities;
 
-import entities.ItemAcervo;
-
 public class Livro extends ItemAcervo {
 	private String titulo, autor, editora;
 	private int numPaginas;
+	
+	// getters e setters
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getEditora() {
+		return editora;
+	}
+	public void setEditora(String editora) {
+		this.editora = editora;
+	}
+	public int getNumPaginas() {
+		return numPaginas;
+	}
+	public void setNumPaginas(int numPaginas) {
+		this.numPaginas = numPaginas;
+	}
 }

@@ -3,66 +3,44 @@ package entities;
 public class Usuario {
 	private String nome, cidade, bairro, endereco, complemento;
 	private int idade;
-
-/*	
-	private String getNome() {
+	
+	// getters e setters
+	public String getNome() {
 		return nome;
 	}
-
-	private void setNome(String nome) {
-		if (nome != "") {
-			this.nome = nome;
-		}
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-
-	private String getCidade() {
+	public String getCidade() {
 		return cidade;
 	}
-
-	private void setCidade(String cidade) {
-		if (nome != "") {
-			this.cidade = cidade;
-		}
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
 	}
-
-	private String getBairro() {
+	public String getBairro() {
 		return bairro;
 	}
-
-	private void setBairro(String bairro) {
-		if (nome != "") {
-			this.bairro = bairro;
-		}
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
 	}
-
-	private String getEndereco() {
+	public String getEndereco() {
 		return endereco;
 	}
-
-	private void setEndereco(String endereco) {
-		if (endereco != "") {
-			this.endereco = endereco;
-		}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
-
-	private String getComplemento() {
+	public String getComplemento() {
 		return complemento;
 	}
-
-	private void setComplemento(String complemento) {
-		if (complemento != "") {
-			this.complemento = complemento;
-		}
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
 	}
-
-	private int getIdade() {
+	public int getIdade() {
 		return idade;
 	}
-
-	private void setIdade(int idade) {
-		if (idade > 0) {
-			this.idade = idade;
-		}
+	public void setIdade(int idade) {
+		this.idade = idade;
 	}
-	*/
+
+	
 }
