@@ -4,6 +4,13 @@ public class ItemAcervo {
 	private String titulo, ano;
 	private int codigo;
 
+	// construtor com parametros
+	public ItemAcervo(String titulo, String ano, int codigo) {
+		this.titulo = titulo;
+		this.ano = ano;
+		this.codigo = codigo;
+	}
+	
 	// getters e setters
 	public String getTitulo() {
 		return titulo;
