@@ -10,6 +10,10 @@ public class ItemAcervo {
 		this.ano = ano;
 		this.codigo = codigo;
 	}
+
+	public String exibirResumo() {
+		return "Titulo:" + getTitulo() + "Ano:" + getAno() + "Codigo:" + getCodigo();
+	}
 	
 	// getters e setters
 	public String getTitulo() {
