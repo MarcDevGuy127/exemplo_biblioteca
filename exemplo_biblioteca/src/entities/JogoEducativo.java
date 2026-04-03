@@ -1,6 +1,8 @@
 package entities;
 
-public class JogoEducativo {
+import entities.ItemAcervo;
+
+public class JogoEducativo extends ItemAcervo {
 	private String nome, descricao;
 	private int pecas;
 
