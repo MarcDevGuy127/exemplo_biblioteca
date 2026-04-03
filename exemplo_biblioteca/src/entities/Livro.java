@@ -11,6 +11,13 @@ public class Livro extends ItemAcervo {
 		this.numPaginas = numPaginas;
 	}
 	
+	// sobrescrita
+	@Override
+	public String exibirResumo() {
+		// TODO Auto-generated method stub
+		return super.exibirResumo();
+	}
+	
 	// getters e setters
 	public String getTitulo() {
 		return titulo;

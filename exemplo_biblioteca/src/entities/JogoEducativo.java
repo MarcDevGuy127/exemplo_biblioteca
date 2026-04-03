@@ -12,6 +12,13 @@ public class JogoEducativo extends ItemAcervo {
 		this.pecas = pecas;
 	}
 	
+	// sobrescrita	
+	@Override
+	public String exibirResumo() {
+		// TODO Auto-generated method stub
+		return super.exibirResumo();
+	}
+	
 	// getters e setters
 	public String getNome() {
 		return nome;
