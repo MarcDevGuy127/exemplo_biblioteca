@@ -6,8 +6,9 @@ public class Aluno extends Usuario {
     public static final String TIPO = "ALUNO";
 
     // inserindo dados do construtor Aluno nas propriedades de Usuario
-    public Aluno(String matricula, String nome, String curso) {
-        super(matricula, nome, curso);
+    public Aluno(String matricula, String nome) {
+    	super(matricula, nome);
+    	// super(matricula, nome, curso);
     }
 
     // consultando tipo do usuario
@@ -23,8 +24,8 @@ public class Aluno extends Usuario {
                 + " - "
                 + getNome()
                 + " - "
-                + getCurso()
-                + " - "
+                //+ getCurso()
+                //+ " - "
                 + getTipoUsuario();
     }
 }
