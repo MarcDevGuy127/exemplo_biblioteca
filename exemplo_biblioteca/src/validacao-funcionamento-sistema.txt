@@ -1,0 +1,15 @@
+Instrucoes para uso do sistema: 
+
+1 - Cadastrar 2 livros
+
+2 - Cadastrar 2 usuarios
+
+3 - Emprestar os livros cadastrados anteriormente
+
+4 - Salvar dados nos CSV com a opção número 9 no console
+
+5 - Gerar relatório, então deve ser gerado um arquivo .csv contendo os dados salvos anteriormente da seguinte maneira:
+
+"isbn;titulo;matricula;nomeUsuario;status;diasAtraso;valorMulta
+123;Clean Code;123456789;Usuario Teste;DEVOLVIDO;0;0.0" 
+
